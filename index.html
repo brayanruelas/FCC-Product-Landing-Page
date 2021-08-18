@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <div class="page-wrapper">
+    <header id="header">
+
+      <img id="header-img" src="images/header-image.jpg"></img>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#our-services">Our services</a></li>
+          <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="our-services">
+      <p>
+        Are you tried of being hardstuck in bronze, iron, etc, well if so we are here to
+        help. Here at valorant we provide boosting services to help you reach the 
+        desire rank you wish. You get to play with some of the best player or have them
+        play on you're account. 
+      </p>
+      <div class="resp-container">
+        <iframe id="video" width="100%" height="100%" 
+          src="https://www.youtube.com/embed/yIIicxWZtTQ"
+          scrolling="yes"
+          frameborder="0"
+          allowfullscreen
+        >This browser does not support iframe
+        </iframe>
+     </div>
+      
+    </section>
+
+    <section id="how-it-works">
+      <p>
+        To use our services you select below on the disire rank you want and make 
+        payment via card or paypal. We wil later then message you via email/discord and 
+        discuss on some options on how you want to move forward.
+      </p>
+    </section>
+
+  <section id="pricing">
+    <div class="product" id="gold">
+      <div class="product-header">Gold</div>
+      <img src="images/gold-logo.png">
+      <h1>100$</h1>
+      <button class="btn">Select</button>
+    </div>
+
+    <div class="product" id="diamond">
+      <div class="product-header">Diamond</div>
+      <img src="images/diamond-logo.png">
+      <h1>200$</h1>
+      <button class="btn">Select</button>
+    </div>
+
+    <div class="product" id="immortal">
+      <div class="product-header">Immortal</div>
+      <img src="images/immortal-logo.png">
+      <h1>300$</h1>
+      <button class="btn">Select</button>
+    </div>
+  </section>
+
+  <section >
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input 
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn"/>
+    </form>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2021, Valorant</span>
+  </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
+</body>
+</html>
